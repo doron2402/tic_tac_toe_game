@@ -116,11 +116,3 @@ ttt_app.prototype.checkForWinners = function(symbol) {
         }
     }
 };
-
-
-//instantiate the arrays
-window.onload = function(){
-    var app = new ttt_app();
-    app.drawBoard();
-
-}
